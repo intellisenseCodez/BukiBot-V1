@@ -1,0 +1,177 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "How are you",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hey! How can I assist you today?",
+        "Hello! Welcome to Codar Tech Africa. How can I help you?",
+        "Hi there! What can I do for you today?",
+        "Good day! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What is Codar Tech Africa?",
+        "Tell me about Codar Tech Africa",
+        "What does Codar Tech Africa do?",
+        "Who are you?",
+        "Can you explain what Codar Tech Africa is?"
+      ],
+      "responses": [
+        "Codar Tech Africa is an EdTech company passionate about equipping African youths with digital skills. We offer job-ready training in tech fields that are in high demand."
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "What courses do you offer?",
+        "Tell me about the courses available",
+        "What can I learn at Codar Tech Africa?",
+        "Do you offer any courses in data science?",
+        "Do you have programming courses?"
+      ],
+      "responses": [
+        "We offer a variety of courses including Data Science, Machine Learning, Web Development, Mobile App Development, and more. You can check out our full course list on our <a href='https://codarhq.com/'><a href='https://codarhq.com/'>website!</a>!</a>"
+      ]
+    },
+    {
+      "tag": "payment_terms",
+      "patterns": [
+        "What are the payment terms?",
+        "How can I pay for the courses?",
+        "Do you offer any payment plans?",
+        "What payment options are available?",
+        "Tell me about the payment methods"
+      ],
+      "responses": [
+        "We offer several payment options including credit card, bank transfer, and mobile money. You can also opt for installment plans. Please visit our <a href='https://codarhq.com/'>website!</a> for detailed payment terms and options."
+      ]
+    },
+    {
+      "tag": "admin_fee",
+      "patterns": [
+        "Why do I have to pay an admin fee?",
+        "What is the administration fee for?",
+        "Can you explain the admin fee?",
+        "Why is there an additional fee?"
+      ],
+      "responses": [
+        "The one-time administration fee helps us maintain our infrastructure, both online and in-person. It supports our city hubs and online portal, ensuring that you have access to state-of-the-art facilities and resources."
+      ]
+    },
+    {
+      "tag": "learning_method",
+      "patterns": [
+        "How will I learn?",
+        "What is the learning method?",
+        "Can you explain the learning process?",
+        "How are the classes conducted?",
+        "Is there an online learning option?"
+      ],
+      "responses": [
+        "We use a Learning Management System for virtual classes that you can take at your own pace. Additionally, we offer weekly live sessions where you can interact with instructors and ask questions."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How can I contact support?",
+        "I need help",
+        "Who can I talk to for support?",
+        "How can I reach customer service?",
+        "I have an issue, who do I contact?"
+      ],
+      "responses": [
+        "You can reach our support team via email at support@codartechafrica.com or call us at +123-456-7890. We are here to help you with any issues you may have."
+      ]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "How long are the courses?",
+        "What is the duration of the courses?",
+        "How much time do I need to complete a course?",
+        "Can you tell me the course length?",
+        "What is the typical duration of your courses?"
+      ],
+      "responses": [
+        "Our courses vary in length. Some can be completed in a few weeks, while others may take a few months. Please check the specific course details on our <a href='https://codarhq.com/'>website!</a> for more information."
+      ]
+    },
+    {
+      "tag": "certification",
+      "patterns": [
+        "Do you provide certificates?",
+        "Will I get a certificate after completing a course?",
+        "Is there any certification?",
+        "Do your courses include certification?",
+        "Can I get certified?"
+      ],
+      "responses": [
+        "Yes, upon successful completion of a course, you will receive a certificate from Codar Tech Africa, which you can add to your resume or LinkedIn profile."
+      ]
+    },
+    {
+      "tag": "job_assistance",
+      "patterns": [
+        "Do you offer job placement?",
+        "Can you help me find a job after the course?",
+        "Is there any job assistance?",
+        "What kind of job support do you offer?",
+        "Will you help me get a job?"
+      ],
+      "responses": [
+        "We offer career support including resume building, interview preparation, and job placement assistance to help you land your dream job in the tech industry."
+      ]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "What is your refund policy?",
+        "Can I get a refund?",
+        "What if I want to cancel?",
+        "How do refunds work?",
+        "Tell me about your refund policy"
+      ],
+      "responses": [
+        "Our refund policy allows you to request a refund within the first 14 days of the course start date. Please visit our <a href='https://codarhq.com/'>website!</a> for detailed information on our refund policy."
+      ]
+    },
+    {
+      "tag": "enrollment_process",
+      "patterns": [
+        "How do I enroll?",
+        "What is the enrollment process?",
+        "Can you guide me through the enrollment?",
+        "How can I sign up for a course?",
+        "What steps do I need to follow to enroll?"
+      ],
+      "responses": [
+        "To enroll in a course, visit our <a href='https://codarhq.com/'>website!</a>, choose your desired course, and follow the instructions to complete your registration. If you need any help, our support team is here to assist you."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "Who created you?",
+        "Who is your creator?"
+      ],
+      "responses": [
+        "I was created by the Data Analytic and AI Team at Codar Tech Africa, a team dedicated to developing and advancing data analytics and artificial intelligenc.",
+        "I was developed at Codar Tech Africa with a combination of machine learning algorithms and large amounts of data, plus lots of human oversight from a large team of people. I'm constantly learning and improving, so over time I will likely become even more useful in my responses.",
+        "I was created by a team of Data Scientist at Codar Tech Africa. They designed and developed me using advanced techniques in machine learning and natural language processing to assist the customer support team to provide support for students"
+      ]
+    }
+  ]
+}

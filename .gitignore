@@ -1,0 +1,13 @@
+env/
+.venv/
+venv/
+__pycache__/
+
+model/
+
+*.env
+*.env.*
+env.*
+*.venv
+*.venv.*
+venv.*
