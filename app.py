@@ -20,7 +20,13 @@ app = FastAPI()
 # Load the .env file to be able to use the secrets
 load_dotenv()
  
-@app.post('/') 
+@app.get("/", summary="Root Endpoint")
+def root():
+    return {
+        "message": "Welcome to the BukiBot APP",
+        "details": ""
+    }
+    
 @app.post('/api/chat')
 def chat_api(chat: Chat):
     response = get_response(chat.question)
