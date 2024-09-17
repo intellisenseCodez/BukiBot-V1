@@ -11,20 +11,28 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from chat import get_response
  
  
-class Chat(BaseModel):
-    question: str
- 
- 
-app = FastAPI()
+app = FastAPI(title="BukiBot AI Assistant",
+    version="0.1.0",
+    description=(  # Description updated for clarity
+        "The BukiBot AI Assistant is an AI application that provides neccessary supports for customers."
+    ),
+    contact={  # Contact details updated for clarity
+        "name": "Codar Tech Africa",
+        "url": "https://codarhq.com/"
+    },
+)
 
 # Load the .env file to be able to use the secrets
 load_dotenv()
+class Chat(BaseModel):
+    question: str
  
+
 @app.get("/", summary="Root Endpoint")
 def root():
     return {
         "message": "Welcome to the BukiBot APP",
-        "details": ""
+        "details": "The BukiBot AI Assistant is an AI application that provides neccessary supports for customers."
     }
     
 @app.post('/api/chat')
