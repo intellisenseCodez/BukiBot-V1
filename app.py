@@ -36,6 +36,8 @@ def chat_api(chat: Chat):
             "Response": response
         }
     
+    print(response_data)
+    
     return JSONResponse(content=response_data)
  
  
